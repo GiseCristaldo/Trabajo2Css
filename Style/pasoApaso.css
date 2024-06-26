@@ -36,24 +36,31 @@ div.desc {
   max-width: 100%;
   margin: 0 auto;
   padding: 20px;
+ 
 }
-.centrado video {
+.centrado video, audio {
   float: left;
   padding: 10px;
   width: 50%;
   margin-top: 10px;
   margin-left: 20px;
   background-color: #5c4f79;
-
   border-radius: 1rem;
+
 }
-.centrado audio {
-  float: left;
-  padding: 10px;
-  width: 50%;
-  margin-top: 5px;
-  margin-left: 20px;
-  background-color: #5c4f79;
-
+.centrado p.hover-text {
+  display: none;
+  background-color:  #536c8dc7;  
+  padding: 20px;
+  color: black;
+  text-align: center;
+ margin-top: 10px;
+ width: 50%;
   border-radius: 1rem;
+
+}
+
+.centrado audio:hover + .hover-text {
+  display: block;
+
 }

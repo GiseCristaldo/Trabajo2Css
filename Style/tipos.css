@@ -24,6 +24,8 @@ table {
     #5c4f79
   );
 }
+tr:hover {
+  background-color: #536c8d;}
 
 td {
   border: 2px dashed rgb(252, 252, 252);

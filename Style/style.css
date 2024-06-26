@@ -38,12 +38,12 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+li a:hover:not(.active) {
   background-color: #536c8d;
 }
 
 .active {
-  background-color: #5c4f79;
+  background-color: #5c4f798f;
 }
 
 .footer {
